@@ -1,0 +1,133 @@
+body {
+    font-family: "Archivo Black", serif;
+    background-color: #726b5b;
+    color: #2E2E2E;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #3B2A20;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #5C4F43;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.attraction-row {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.attraction {
+    flex: 1;
+    text-align: center;
+}
+
+.attraction img {
+    width: 100%;
+    max-width: 400px; 
+    height: 380px; 
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.attraction h3 {
+    font-size: 1.5rem;
+    color: #4F3B30;
+    margin-top: 10px;
+}
+
+.attraction p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.attraction-single {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.attraction-single img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.facts {
+    background-color: #252424;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.facts h2 {
+    color: #7C4C31;
+}
+
+.facts ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #666;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4A3B31;
+    color: #E0D3C2;
+    margin-top: 20px;
+}
+
+
+.navbar {
+    background-color: #4A3B31;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    font-family: "Archivo Black", serif;
+    font-size: 1.2rem;
+    color: #E0D3C2;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.navbar ul li a:hover {
+    background-color: #7C4C31;
+    color: #FFFFFF;
+}
